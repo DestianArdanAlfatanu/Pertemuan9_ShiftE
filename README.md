@@ -149,7 +149,7 @@ Ini adalah halaman ketika kita ingin mengedit data mahasiswa. Halaman ini berasa
 
 # Tampilan Setelah Sukses Mengedit Data Mahasiswa
 
-![image](https://github.com/user-attachments/assets/97ce4baf-074b-4229-8628-6ea80341c9c2)
+![image](https://github.com/user-attachments/assets/32f3be97-1a90-498a-8607-7a5008c705e3)
 
 Alert ini menunjukkan bahwa data sudah berhasil diedit. Alert ini berasal dari kode ini.
 ```dart
