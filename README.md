@@ -106,7 +106,7 @@ tambahMahasiswa() {
 
 # Tampilan Edit Mahasiswa
 
-![image](https://github.com/user-attachments/assets/e1b2b3f9-9a1d-40a3-ad2e-e2c69e6da7c2)
+![image](https://github.com/user-attachments/assets/6564c6ae-88bb-4c00-9292-3d803751b403)
 ![image](https://github.com/user-attachments/assets/ec7766a2-75c0-4582-937d-6c4fe68ad3bf)
 
 Ini adalah halaman ketika kita ingin mengedit data mahasiswa. Halaman ini berasal dari kode ini
