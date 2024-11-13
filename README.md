@@ -1,9 +1,9 @@
-Tampilan Home Awal
+# Tampilan Home Awal
 
 ![image](https://github.com/user-attachments/assets/73ff9b09-79db-429e-8f61-dfca46231a07)
 
 Ini adalah tampilan awal ketika kita mengakses url websitenya. Tidak ada isi data di dalamnya.
-Berasal dari kode ini
+Halaman tersebut berasal dari kode ini
 ```dart
 <!-- mahasiswa.page.html -->
 <ion-header [translucent]="true">
@@ -36,7 +36,7 @@ Berasal dari kode ini
 </ion-card>
 ```
 
-Tampilan Tambah Mahasiswa
+# Tampilan Tambah Mahasiswa
 
 ![image](https://github.com/user-attachments/assets/98e68bd6-f911-4505-8f3c-6560b5a84d11)
 
@@ -74,7 +74,7 @@ Ini adalah halaman ketika kita ingin menambahkan data mahasiswa. Halaman ini ber
 </ion-modal>
 ```
 
-Tampilan Setelah Sukses Menambahkan Data Mahasiswa
+# Tampilan Setelah Sukses Menambahkan Data Mahasiswa
 
 ![image](https://github.com/user-attachments/assets/f8d0f64a-0239-4d5c-a32c-3840ca297d99)
 
@@ -96,7 +96,7 @@ tambahMahasiswa() {
   }
   ```
 
-Tampilan Edit Mahasiswa
+# Tampilan Edit Mahasiswa
 
 ![image](https://github.com/user-attachments/assets/ec7766a2-75c0-4582-937d-6c4fe68ad3bf)
 
@@ -134,7 +134,7 @@ Ini adalah halaman ketika kita ingin mengedit data mahasiswa. Halaman ini berasa
 </ion-modal>
 ```
 
-Tampilan Setelah Sukses Mengedit Data Mahasiswa
+# Tampilan Setelah Sukses Mengedit Data Mahasiswa
 
 ![image](https://github.com/user-attachments/assets/97ce4baf-074b-4229-8628-6ea80341c9c2)
 
@@ -157,7 +157,7 @@ editMahasiswa() {
   }
 ```
 
-Tampilan Ketika Ingin Menghapus Data Mahasiswa
+# Tampilan Ketika Ingin Menghapus Data Mahasiswa
 
 ![image](https://github.com/user-attachments/assets/d231a081-985e-405b-a404-7664830d3181)
 
@@ -185,7 +185,7 @@ async showConfirmAlert(id: any) {
     await alert.present();
   }
 ```
-Tetapi jika Anda menekan tombol 'yes' maka akan muncul alert
+### Tetapi jika Anda menekan tombol 'yes' maka akan muncul alert
 
 ![image](https://github.com/user-attachments/assets/1263450f-3a35-427d-8eb3-35ad8b6539a2)
 
