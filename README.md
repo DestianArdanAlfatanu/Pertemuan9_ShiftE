@@ -172,7 +172,7 @@ editMahasiswa() {
 
 # Tampilan Ketika Ingin Menghapus Data Mahasiswa
 
-![image](https://github.com/user-attachments/assets/d231a081-985e-405b-a404-7664830d3181)
+![image](https://github.com/user-attachments/assets/0dae7493-7958-482d-a6a5-1a0bf8f5e70e)
 
 Alert ini berfungsi untuk meyakinkan apakah Anda benar benar akan menghapus data mahasiswa ini?. Klik 'yes' jika Anda benar-benar ingin menghapus. Klik 'no' jika anda tidak ingin menghapus.
 Jika Anda menekan tombol 'no' maka akan kembali ke halaman Data Mahasiswa.
@@ -200,7 +200,7 @@ async showConfirmAlert(id: any) {
 ```
 ### Tetapi jika Anda menekan tombol 'yes' maka akan muncul alert
 
-![image](https://github.com/user-attachments/assets/1263450f-3a35-427d-8eb3-35ad8b6539a2)
+![image](https://github.com/user-attachments/assets/ced97d01-54eb-455c-b5a8-1f7c4033ecb0)
 
 Serta data yang tadi dihapus akan menghilang dari halaman.
 Alert tersebut muncul karena kode ini
