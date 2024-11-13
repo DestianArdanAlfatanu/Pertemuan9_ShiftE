@@ -72,7 +72,9 @@ Ini adalah halaman ketika kita ingin menambahkan data mahasiswa. Halaman ini ber
       </ion-item>
       <ion-row>
         <ion-col>
-          <ion-button type="button" (click)="tambahMahasiswa()" color="primary" shape="full" expand="block">Tambah Mahasiswa</ion-button>
+          <ion-button type="button" (click)="tambahMahasiswa()" color="primary" shape="full" expand="block">
+            Tambah Mahasiswa
+          </ion-button>
         </ion-col>
       </ion-row>
     </ion-content>
@@ -135,7 +137,9 @@ Ini adalah halaman ketika kita ingin mengedit data mahasiswa. Halaman ini berasa
       </ion-item>
       <ion-row>
         <ion-col>
-          <ion-button type="button" (click)="editMahasiswa()" color="primary" shape="full" expand="block">Edit Mahasiswa</ion-button>
+          <ion-button type="button" (click)="editMahasiswa()" color="primary" shape="full" expand="block">
+            Edit Mahasiswa
+          </ion-button>
         </ion-col>
       </ion-row>
     </ion-content>
