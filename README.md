@@ -30,14 +30,18 @@ Halaman tersebut berasal dari kode ini
     </ion-item>
   </ion-card>
 </ion-content>
+
 <!-- button tambah -->
 <ion-card>
-  <ion-button (click)="openModalTambah(true)" expand="block">Tambah Mahasiswa</ion-button>
+  <ion-button (click)="openModalTambah(true)" expand="block">
+    Tambah Mahasiswa
+  </ion-button>
 </ion-card>
 ```
 
 # Tampilan Tambah Mahasiswa
 
+![image](https://github.com/user-attachments/assets/a4bf00ac-ca3e-44a3-b0e4-d20c09ecb980)
 ![image](https://github.com/user-attachments/assets/98e68bd6-f911-4505-8f3c-6560b5a84d11)
 
 Ini adalah halaman ketika kita ingin menambahkan data mahasiswa. Halaman ini berasal dari kode ini
@@ -54,11 +58,13 @@ Ini adalah halaman ketika kita ingin menambahkan data mahasiswa. Halaman ini ber
       </ion-toolbar>
     </ion-header>
     <ion-content class="ion-padding">
+<!-- KOLOM NAMA MAHASISWA -->
       <ion-item>
         <ion-input label="Nama Mahasiswa" labelPlacement="floating" required [(ngModel)]="nama"
           placeholder="Masukkan Nama Mahasiswa" type="text">
         </ion-input>
       </ion-item>
+<!-- KOLOM JURUSAN MAHASISWA -->
       <ion-item>
         <ion-input label="Jurusan Mahasiswa" labelPlacement="floating" required [(ngModel)]="jurusan"
           placeholder="Masukkan Jurusan Mahasiswa" type="text">
@@ -98,6 +104,7 @@ tambahMahasiswa() {
 
 # Tampilan Edit Mahasiswa
 
+![image](https://github.com/user-attachments/assets/e1b2b3f9-9a1d-40a3-ad2e-e2c69e6da7c2)
 ![image](https://github.com/user-attachments/assets/ec7766a2-75c0-4582-937d-6c4fe68ad3bf)
 
 Ini adalah halaman ketika kita ingin mengedit data mahasiswa. Halaman ini berasal dari kode ini
@@ -114,11 +121,13 @@ Ini adalah halaman ketika kita ingin mengedit data mahasiswa. Halaman ini berasa
       </ion-toolbar>
     </ion-header>
     <ion-content class="ion-padding">
+<!-- KOLOM NAMA MAHASISWA -->
       <ion-item>
         <ion-input label="Nama Mahasiswa" labelPlacement="floating" required [(ngModel)]="nama"
           placeholder="Masukkan Nama Mahasiswa" type="text">
         </ion-input>
       </ion-item>
+<!-- KOLOM JURUSAN MAHASISWA -->
       <ion-item>
         <ion-input label="Jurusan Mahasiswa" labelPlacement="floating" required [(ngModel)]="jurusan"
           placeholder="Masukkan Jurusan Mahasiswa" type="text">
